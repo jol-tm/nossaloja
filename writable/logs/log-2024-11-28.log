@@ -1,0 +1,59 @@
+CRITICAL - 2024-11-28 17:43:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\Main.php(12): view('header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-28 17:45:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\Main.php(12): view('header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-28 17:45:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\Main.php(12): view('header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-28 18:05:21 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\xampp\htdocs\nossaloja\app\Config\Routes.php on line 11 and at least 2 expected
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1051.
+ 1 APPPATH\Config\Routes.php(11): CodeIgniter\Router\RouteCollection->get('pesquisaProduto::pesquisarProduto')
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\nossaloja\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-28 18:08:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cadastrar.php"
+[Method: GET, Route: cadastrar]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cadastrar.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cadastrar', [], true)
+ 3 APPPATH\Controllers\Produto.php(13): view('cadastrar')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->cadastrarProduto()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
