@@ -11,7 +11,7 @@ $routes->get('administracao', 'Usuario::administracao');
 $routes->get('admins', 'Usuario::admins');
 $routes->get('cadlogin', 'Usuario::cadlogin');
 
-
+$routes->post('produto/salvarProduto', 'Produto::salvarProduto');
 $routes->get('pesquisa', 'Produto::pesquisarProduto');
 $routes->get('cadastrar', 'Produto::cadastrarProduto');
 $routes->get('alterar', 'Produto::alterarProduto');

@@ -18,7 +18,8 @@
 
             <div class="col-12 d-flex justify-content-center mb-5">
 
-                <form class="w-50 border p-5 mw-10">
+
+                    <?php echo form_open_multipart('produto/salvarProduto'); ?>
 
                     <div class="mb-3">
                       <label for="inputProduto" class="form-label">Produto</label>
@@ -34,9 +35,12 @@
                     </div>
                     <div class="mb-3">
                         <label for="formFile" class="form-label">Imagem do Produto</label>
-                        <input class="form-control" type="file" name="imagem" id="formFile">
+                        <input class="form-control" type="file" name="userfile" id="formFile">
                     </div>
                     <button type="submit" class="btn btn-primary">Cadastrar</button>
-                  </form>
+                <?php if (session()->has('erros')) : ?>
+                    <?php echo session()->get('erros')['userfile']; ?>
+                <?php endif; ?>
+                  <?php echo form_close(); ?>
             </div>
        </div>
