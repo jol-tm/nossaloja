@@ -25,7 +25,7 @@ class Produto extends BaseController
         $img = $this->request->getFile('userfile');
 
         if (! $this->validate([
-            'userfile' => 'uploaded[userfile]|is_image[userfile]|ext_in[userfile,jpg,jpeg,png]|max_dims[userfile,1920,1080]'
+            'userfile' => 'uploaded[userfile]|is_image[userfile]|ext_in[userfile,jpg,jpeg,png]'
         ], [
             'userfile' => [
                 'uploaded' => 'Escolha uma imagem',
@@ -47,6 +47,8 @@ class Produto extends BaseController
             session()->setFlashdata('sucesso', "Upload realizado com sucesso!");
 
             $dados = $this->request->getPost();
+
+            $dados['imagem'] = $nomeRand;
 
             if ($this->produtoModel->save($dados)) {
                 return redirect()->route('administracao');
