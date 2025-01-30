@@ -1,0 +1,615 @@
+INFO - 2025-01-30 16:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 16:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 16:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:04:20 --> ErrorException: Undefined array key "param"
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Controllers\Produto.php on line 126.
+ 1 APPPATH\Controllers\Produto.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "param"', 'C:\\xampp\\htdocs\\nossaloja\\app\\Controllers\\Produto.php', 126)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-30 17:04:40 --> ErrorException: Undefined array key "param"
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Controllers\Produto.php on line 126.
+ 1 APPPATH\Controllers\Produto.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "param"', 'C:\\xampp\\htdocs\\nossaloja\\app\\Controllers\\Produto.php', 126)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:04:58 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 60.
+ 1 APPPATH\Views\administracao.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php', 60)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 5 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:05:07 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 60.
+ 1 APPPATH\Views\administracao.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php', 60)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 5 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:05:09 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 62.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 4 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:07:23 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 63.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 4 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:08:29 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 63.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 4 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:09:45 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 64.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 4 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:10:03 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 64.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 4 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:10:22 --> ErrorException: Undefined variable $produto
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 64.
+ 1 APPPATH\Views\administracao.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', 'C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 5 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-30 17:10:53 --> ParseError: syntax error, unexpected token ";"
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 64.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 3 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:11:20 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 64.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 4 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:11:36 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 63.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 4 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:11:39 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 61.
+ 1 APPPATH\Views\administracao.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 5 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:11:46 --> ErrorException: Undefined array key "param"
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Controllers\Produto.php on line 126.
+ 1 APPPATH\Controllers\Produto.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "param"', 'C:\\xampp\\htdocs\\nossaloja\\app\\Controllers\\Produto.php', 126)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:12:20 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 64.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 4 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:14:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 64.
+ 1 APPPATH\Views\administracao.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 5 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:15:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 64.
+ 1 APPPATH\Views\administracao.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 5 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:15:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 63.
+ 1 APPPATH\Views\administracao.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 5 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:15:32 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 63.
+ 1 APPPATH\Views\administracao.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 5 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:15:45 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 63.
+ 1 APPPATH\Views\administracao.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 5 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:16:21 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 63.
+ 1 APPPATH\Views\administracao.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 5 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:16:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 63.
+ 1 APPPATH\Views\administracao.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 5 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:17:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 63.
+ 1 APPPATH\Views\administracao.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 5 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:17:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 63.
+ 1 APPPATH\Views\administracao.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 5 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:19:33 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 60.
+ 1 APPPATH\Views\administracao.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php', 60)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 5 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:20:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 63.
+ 1 APPPATH\Views\administracao.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 5 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:20:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 63.
+ 1 APPPATH\Views\administracao.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 5 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 17:21:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Views\administracao.php on line 63.
+ 1 APPPATH\Views\administracao.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\nossaloja\\app\\Views\\administracao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('administracao', [], true)
+ 5 APPPATH\Controllers\Produto.php(133): view('administracao', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 17:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 17:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-30 18:10:34 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\nossaloja\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\nossaloja\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nossaloja', 3306, '', 0)
+#1 C:\xampp\htdocs\nossaloja\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\nossaloja\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\nossaloja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nossaloja\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nossaloja\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\nossaloja\app\Controllers\Admin.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\nossaloja\system\CodeIgniter.php(933): App\Controllers\Admin->index()
+#8 C:\xampp\htdocs\nossaloja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\nossaloja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nossaloja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\nossaloja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\nossaloja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\nossaloja\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\nossaloja\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\nossaloja\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\nossaloja\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\nossaloja\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\nossaloja\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\nossaloja\app\Controllers\Admin.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\nossaloja\system\CodeIgniter.php(933): App\Controllers\Admin->index()
+#7 C:\xampp\htdocs\nossaloja\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\nossaloja\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nossaloja\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\nossaloja\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\nossaloja\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-30 18:10:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+[Method: GET, Route: administracao]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produtos`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Admin.php(16): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 18:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 19:45:28 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: produto/salvarProduto]
+in APPPATH\Controllers\Produto.php on line 110.
+ 1 APPPATH\Controllers\Produto.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\nossaloja\\app\\Controllers\\Produto.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->salvarProduto()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 19:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 19:47:34 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: produto/salvarProduto]
+in APPPATH\Controllers\Produto.php on line 110.
+ 1 APPPATH\Controllers\Produto.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\nossaloja\\app\\Controllers\\Produto.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->salvarProduto()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-30 19:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-30 19:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 20:14:06 --> ErrorException: Undefined array key "param"
+[Method: POST, Route: produto/buscarProduto]
+in APPPATH\Controllers\Produto.php on line 126.
+ 1 APPPATH\Controllers\Produto.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "param"', 'C:\\xampp\\htdocs\\nossaloja\\app\\Controllers\\Produto.php', 126)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->buscarProduto()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-30 20:15:16 --> ErrorException: Undefined array key "pesquisa"
+[Method: POST, Route: produto/pesquisarProduto]
+in APPPATH\Controllers\Produto.php on line 139.
+ 1 APPPATH\Controllers\Produto.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pesquisa"', 'C:\\xampp\\htdocs\\nossaloja\\app\\Controllers\\Produto.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->pesquisarProduto()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-30 20:28:01 --> ErrorException: Undefined array key "pesquisa"
+[Method: POST, Route: produto/pesquisarProduto]
+in APPPATH\Controllers\Produto.php on line 139.
+ 1 APPPATH\Controllers\Produto.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pesquisa"', 'C:\\xampp\\htdocs\\nossaloja\\app\\Controllers\\Produto.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produto->pesquisarProduto()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

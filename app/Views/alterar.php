@@ -15,24 +15,28 @@
         </div>
        <div class="row">
             <div class="col-12 d-flex justify-content-center mt-5 mb-5">
-                <form class="w-50 border m-5 p-5 mw-10">
+                <div class="w-50 border m-5 p-5 mw-10 rounded">
+                    <?= form_open_multipart('produto/alterarProduto'); ?>
                     <div class="mb-3">
+                      <input type="hidden" name="id" value="<?= $produto['id'] ?>">
                       <label for="inputProduto" class="form-label">Produto</label>
-                      <input type="text" class="form-control" name="produto" id="inputProduto">
+                      <input type="text" class="form-control" name="produto" value="<?= $produto['produto'] ?>" id="inputProduto">
                     </div>
                     <div class="mb-3">
                         <label for="inputDesc" class="form-label">Descrição</label>
-                        <input type="text" class="form-control" name="descricao" id="inputDesc">
+                        <input type="text" class="form-control" name="descricao" value="<?= $produto['descricao'] ?>" id="inputDesc">
                     </div>
                     <div class="mb-3">
                       <label for="inputPreco" class="form-label">Preço</label>
-                      <input type="text" class="form-control" name="preco" id="inputPreco">
+                      <input type="text" class="form-control" name="preco" value="<?= $produto['preco'] ?>" id="inputPreco">
                     </div>
                     <div class="mb-3">
                         <label for="formFile" class="form-label">Imagem do Produto</label>
-                        <input class="form-control" type="file" name="imagem" id="formFile">
+                        <input class="form-control" type="file" name="userfile" value="<?= $produto['preco'] ?>" id="formFile">
+                        <img class="img-fluid mt-3 rounded" src="<?= base_url("/assets/uploads/" . $produto['imagem']) ?>" alt="">
                     </div>
-                    <button type="submit" class="btn btn-primary">Cadastrar</button>
-                  </form>
+                    <button type="submit" class="btn btn-primary">Alterar</button>
+                    <?= form_close(); ?>
+                </div>
             </div>
        </div>

@@ -20,11 +20,13 @@
                 </li>
 
             </ul>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
+            <?= form_open("produto/pesquisarProduto") ?>
+            <div class="d-flex" role="search">
+                <input name="pesquisa" class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-            </form>
-            <a href="<?= base_url('login'); ?>" class="btn btn-primary m-3">Entrar</a>
+            </div>
+            <?= form_close() ?>
+            <a href="<?= base_url('login'); ?>" class="btn btn-primary mx-3 mb-3">Entrar</a>
         </div>
     </div>
 </nav>

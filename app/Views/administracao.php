@@ -2,11 +2,12 @@
             <div class="col-12 d-flex justify-content-center mt-5 mb-5">
                 <div>
                     <h1>Administração - NossaLoja.com</h1>
-                    <?php if (session()->has('cadastroStatus')) : ?>
-                    <?php echo "<div class=\"alert alert-success\" role=\"alert\">" . session()->get('cadastroStatus') . "</div>"; ?>
+                    <?php if (session()->has('status')) : ?>
+                    <?php echo "<div class=\"alert alert-success\" role=\"alert\">" . session()->get('status') . "</div>"; ?>
+                    <?php elseif (session()->has('errors')) : ?>
+                    <?php echo "<div class=\"alert alert-warning\" role=\"alert\">" . session()->get('errors') . "</div>"; ?>
                     <?php endif; ?>
                     <div class="d-flex justify-content-evenly mt-5">
-
                         <a href="<?= base_url('cadastrar'); ?>" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Cadastrar Produto">
                             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-gift-fill" viewBox="0 0 16 16">
                                 <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A3 3 0 0 1 3 2.506zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43zM9 3h2.932l.023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9z"/>
@@ -26,19 +27,21 @@
                 <hr>
                 <h1 class="mt-5 mb-5 text-center">Produtos Cadastrados</h1>
                 <div class="d-flex justify-content-center mb-5">
-                    <form class="row g-3">
-                        <div class="col-auto">
-                            <label for="inputPesquisa" class="visually-hidden">Pesquisa</label>
-                            <input type="text" class="form-control" id="inputPesquisa" placeholder="Buscar">
-                        </div>
-                        <div class="col-auto">
-                            <select class="form-select" aria-label="Default select example">
-                                <option value="1">ID</option>
-                                <option value="2">Nome</option>
-                            </select>
-                        </div>
-                        <div class="col-auto">
-                            <button type="submit" class="btn btn-primary mb-3">Pesquisar</button>
+                    <form action="<?= site_url("produto/buscarProduto"); ?>" method="post">
+                        <div class="row g-3">
+                            <div class="col-auto">
+                                <label for="inputPesquisa" class="visually-hidden">Pesquisa</label>
+                                <input type="text" name="pesquisa" class="form-control" id="inputPesquisa" placeholder="Buscar">
+                            </div>
+                            <div class="col-auto">
+                                <select class="form-select" name="param" aria-label="Default select example">
+                                    <option value="1">ID</option>
+                                    <option value="2">Nome</option>
+                                </select>
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn btn-primary mb-3">Pesquisar</button>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -54,6 +57,7 @@
                     </tr>
                     </thead>
                     <tbody>
+                    <?php if (isset($produtos[0])): ?>
                     <?php foreach ($produtos as $produto): ?>
                     <tr>
                         <th scope="row"><?= $produto["id"] ?></th>
@@ -61,12 +65,12 @@
                         <td><?= $produto["descricao"] ?></td>
                         <td>R$ <?= $produto["preco"] ?></td>
                         <td>
-                            <a href="<?= base_url('alterar') . "?id={$produto["id"]}"; ?>" class="btn btn-warning me-3">Alterar</a>
-                            <a href="" class="btn btn-danger">Remover</a>
+                            <a href="<?= base_url('produto/editarProduto/') . $produto["id"]; ?>" class="btn btn-warning me-3">Alterar</a>
+                            <a href="<?= base_url('produto/excluirProduto/') . $produto["id"]; ?>" class="btn btn-danger">Remover</a>
                         </td>
                     </tr>
                     <?php endforeach; ?>
-
+                    <?php endif; ?>
                     </tbody>
                 </table>
             </div>
